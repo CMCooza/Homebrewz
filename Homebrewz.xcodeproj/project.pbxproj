@@ -12,9 +12,6 @@
 		4CB00EDD2C7E5CFA00CFBAF5 /* HBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00EDC2C7E5CFA00CFBAF5 /* HBTabBarController.swift */; };
 		4CB00EE22C7E5CFD00CFBAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB00EE12C7E5CFD00CFBAF5 /* Assets.xcassets */; };
 		4CB00EE52C7E5CFD00CFBAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB00EE32C7E5CFD00CFBAF5 /* LaunchScreen.storyboard */; };
-		4CB00EF02C7E5CFD00CFBAF5 /* HomebrewzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00EEF2C7E5CFD00CFBAF5 /* HomebrewzTests.swift */; };
-		4CB00EFA2C7E5CFD00CFBAF5 /* HomebrewzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00EF92C7E5CFD00CFBAF5 /* HomebrewzUITests.swift */; };
-		4CB00EFC2C7E5CFD00CFBAF5 /* HomebrewzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00EFB2C7E5CFD00CFBAF5 /* HomebrewzUITestsLaunchTests.swift */; };
 		4CB00F0F2C7E5F2700CFBAF5 /* HBLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F0E2C7E5F2700CFBAF5 /* HBLocations.swift */; };
 		4CB00F112C7E5F3500CFBAF5 /* HBCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F102C7E5F3500CFBAF5 /* HBCharacter.swift */; };
 		4CB00F132C7E5F3D00CFBAF5 /* RMOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F122C7E5F3D00CFBAF5 /* RMOther.swift */; };
@@ -54,10 +51,7 @@
 		4CB00EE42C7E5CFD00CFBAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CB00EE62C7E5CFD00CFBAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB00EEB2C7E5CFD00CFBAF5 /* HomebrewzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebrewzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB00EEF2C7E5CFD00CFBAF5 /* HomebrewzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebrewzTests.swift; sourceTree = "<group>"; };
 		4CB00EF52C7E5CFD00CFBAF5 /* HomebrewzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebrewzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CB00EF92C7E5CFD00CFBAF5 /* HomebrewzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebrewzUITests.swift; sourceTree = "<group>"; };
-		4CB00EFB2C7E5CFD00CFBAF5 /* HomebrewzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebrewzUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CB00F0E2C7E5F2700CFBAF5 /* HBLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBLocations.swift; sourceTree = "<group>"; };
 		4CB00F102C7E5F3500CFBAF5 /* HBCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBCharacter.swift; sourceTree = "<group>"; };
 		4CB00F122C7E5F3D00CFBAF5 /* RMOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOther.swift; sourceTree = "<group>"; };
@@ -100,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				4CB00ED72C7E5CFA00CFBAF5 /* Homebrewz */,
-				4CB00EEE2C7E5CFD00CFBAF5 /* HomebrewzTests */,
-				4CB00EF82C7E5CFD00CFBAF5 /* HomebrewzUITests */,
 				4CB00ED62C7E5CFA00CFBAF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,23 +120,6 @@
 				4CB00EE62C7E5CFD00CFBAF5 /* Info.plist */,
 			);
 			path = Homebrewz;
-			sourceTree = "<group>";
-		};
-		4CB00EEE2C7E5CFD00CFBAF5 /* HomebrewzTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CB00EEF2C7E5CFD00CFBAF5 /* HomebrewzTests.swift */,
-			);
-			path = HomebrewzTests;
-			sourceTree = "<group>";
-		};
-		4CB00EF82C7E5CFD00CFBAF5 /* HomebrewzUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4CB00EF92C7E5CFD00CFBAF5 /* HomebrewzUITests.swift */,
-				4CB00EFB2C7E5CFD00CFBAF5 /* HomebrewzUITestsLaunchTests.swift */,
-			);
-			path = HomebrewzUITests;
 			sourceTree = "<group>";
 		};
 		4CB00F082C7E5EAC00CFBAF5 /* Controllers */ = {
@@ -364,7 +339,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB00EF02C7E5CFD00CFBAF5 /* HomebrewzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CB00EFC2C7E5CFD00CFBAF5 /* HomebrewzUITestsLaunchTests.swift in Sources */,
-				4CB00EFA2C7E5CFD00CFBAF5 /* HomebrewzUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
