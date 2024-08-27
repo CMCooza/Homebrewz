@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show and search for Other
 final class HBOtherViewController: UIViewController {
 
     override func viewDidLoad() {

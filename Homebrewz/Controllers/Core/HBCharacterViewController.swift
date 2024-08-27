@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+/// Controller to show and search for Characters
 final class HBCharacterViewController: UIViewController {
 
     override func viewDidLoad() {

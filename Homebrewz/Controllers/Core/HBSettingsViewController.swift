@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show various app options and settings
 final class HBSettingsViewController: UIViewController {
 
     override func viewDidLoad() {

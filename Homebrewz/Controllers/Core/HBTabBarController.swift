@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+/// Controller to house tabs an root tab controllers
 final class HBTabBarController: UITabBarController {
 
     override func viewDidLoad() {
@@ -14,7 +16,7 @@ final class HBTabBarController: UITabBarController {
         view.backgroundColor = .red
         setUpTabs()
     }
-
+    
     private func setUpTabs() {
         let charactersVC = HBCharacterViewController()
         let locationsVC = HBLocationViewController()
