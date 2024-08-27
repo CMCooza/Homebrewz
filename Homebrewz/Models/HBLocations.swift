@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct HBLocation: Codable {
+    let id: Int
+    let name: String
+    let population: [String]
+    let description: String
+}

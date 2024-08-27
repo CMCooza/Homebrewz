@@ -14,8 +14,7 @@
 		4CB00EE52C7E5CFD00CFBAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB00EE32C7E5CFD00CFBAF5 /* LaunchScreen.storyboard */; };
 		4CB00F0F2C7E5F2700CFBAF5 /* HBLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F0E2C7E5F2700CFBAF5 /* HBLocations.swift */; };
 		4CB00F112C7E5F3500CFBAF5 /* HBCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F102C7E5F3500CFBAF5 /* HBCharacter.swift */; };
-		4CB00F132C7E5F3D00CFBAF5 /* RMOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F122C7E5F3D00CFBAF5 /* RMOther.swift */; };
-		4CB00F152C7E5F4900CFBAF5 /* RMSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F142C7E5F4900CFBAF5 /* RMSettings.swift */; };
+		4CB00F132C7E5F3D00CFBAF5 /* HBOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F122C7E5F3D00CFBAF5 /* HBOther.swift */; };
 		4CB00F182C7E5FA000CFBAF5 /* HBCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F172C7E5FA000CFBAF5 /* HBCharacterViewController.swift */; };
 		4CB00F1A2C7E5FAA00CFBAF5 /* HBLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F192C7E5FAA00CFBAF5 /* HBLocationViewController.swift */; };
 		4CB00F1C2C7E5FB500CFBAF5 /* HBOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB00F1B2C7E5FB500CFBAF5 /* HBOtherViewController.swift */; };
@@ -54,8 +53,7 @@
 		4CB00EF52C7E5CFD00CFBAF5 /* HomebrewzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebrewzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB00F0E2C7E5F2700CFBAF5 /* HBLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBLocations.swift; sourceTree = "<group>"; };
 		4CB00F102C7E5F3500CFBAF5 /* HBCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBCharacter.swift; sourceTree = "<group>"; };
-		4CB00F122C7E5F3D00CFBAF5 /* RMOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOther.swift; sourceTree = "<group>"; };
-		4CB00F142C7E5F4900CFBAF5 /* RMSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettings.swift; sourceTree = "<group>"; };
+		4CB00F122C7E5F3D00CFBAF5 /* HBOther.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOther.swift; sourceTree = "<group>"; };
 		4CB00F172C7E5FA000CFBAF5 /* HBCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBCharacterViewController.swift; sourceTree = "<group>"; };
 		4CB00F192C7E5FAA00CFBAF5 /* HBLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBLocationViewController.swift; sourceTree = "<group>"; };
 		4CB00F1B2C7E5FB500CFBAF5 /* HBOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBOtherViewController.swift; sourceTree = "<group>"; };
@@ -135,8 +133,7 @@
 			children = (
 				4CB00F0E2C7E5F2700CFBAF5 /* HBLocations.swift */,
 				4CB00F102C7E5F3500CFBAF5 /* HBCharacter.swift */,
-				4CB00F122C7E5F3D00CFBAF5 /* RMOther.swift */,
-				4CB00F142C7E5F4900CFBAF5 /* RMSettings.swift */,
+				4CB00F122C7E5F3D00CFBAF5 /* HBOther.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,12 +322,11 @@
 				4CB00F242C7E6C9E00CFBAF5 /* HBEndpoint.swift in Sources */,
 				4CB00F1C2C7E5FB500CFBAF5 /* HBOtherViewController.swift in Sources */,
 				4CB00F202C7E6C1400CFBAF5 /* HBService.swift in Sources */,
-				4CB00F132C7E5F3D00CFBAF5 /* RMOther.swift in Sources */,
+				4CB00F132C7E5F3D00CFBAF5 /* HBOther.swift in Sources */,
 				4CB00F222C7E6C2800CFBAF5 /* HBRequest.swift in Sources */,
 				4CB00ED92C7E5CFA00CFBAF5 /* AppDelegate.swift in Sources */,
 				4CB00F0F2C7E5F2700CFBAF5 /* HBLocations.swift in Sources */,
 				4CB00F112C7E5F3500CFBAF5 /* HBCharacter.swift in Sources */,
-				4CB00F152C7E5F4900CFBAF5 /* RMSettings.swift in Sources */,
 				4CB00EDB2C7E5CFA00CFBAF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
